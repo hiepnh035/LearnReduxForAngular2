@@ -1,0 +1,8 @@
+<button class="btn btn-primary" (click)="loadMore()" >Tạo mới</button>
+<button class="btn btn-primary" (click)="loadMore()" >Hiển thị thêm</button>
+<button class="btn btn-primary" (click)="loadLess()" >Hiển thị ít đi</button>
+<ol>
+    <li *ngFor="let benh of (dsBenh | async)">
+        {{benh.Name}}
+    </li>
+</ol>

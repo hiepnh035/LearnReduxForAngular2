@@ -1,6 +1,5 @@
 import { DsBenh } from './_models/benh';
 
-export interface AppStore {
+export interface BenhStore {
     dsBenh: DsBenh[];
-    // other properties...
 }

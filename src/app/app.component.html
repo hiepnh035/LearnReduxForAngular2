@@ -1,24 +1,39 @@
-<h1>Angular 2 and Redux simplified</h1>
-<p><a href="https://medium.com/@ivan.radunovic/angular-2-with-redux-using-ngrx-store-2f93a8ad0dd#.b2qpbwoht">Original Medium Article</a></p>
+<h1>Angular 2 and Redux simple application</h1>
 <div class="row">
+  <!-- Danh sách bệnh -->
   <div class="col-md-6">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <h3 class="panel-title">CampaignComponent</h3>
+        <h3 class="panel-title">Danh sách bệnh</h3>
       </div>
       <div class="panel-body">
-        <campaigns></campaigns>
+        <app-benh></app-benh>
       </div>
     </div>
   </div>
 
-    <div class="col-md-6">
-      <div class="panel panel-warning">
-        <div class="panel-heading">
-          <h3 class="panel-title">CampaignCountComponent</h3>
-        </div>
-        <div class="panel-body">
-        </div>
+  <!-- Đếm bệnh -->
+  <div class="col-md-6">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tổng số bệnh hiển thị</h3>
+      </div>
+      <div class="panel-body">
+        <app-benh-count></app-benh-count>
       </div>
     </div>
+  </div>
+
+  <!-- Tạo mới bệnh -->
+  <div class="col-md-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tạo mới bệnh</h3>
+      </div>
+      <div class="panel-body">
+        <app-tao-moi></app-tao-moi>
+      </div>
+    </div>
+  </div>
+
 </div>
