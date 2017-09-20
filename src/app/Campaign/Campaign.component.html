@@ -1,0 +1,7 @@
+<h2>Danh sach benh</h2>
+<button class="btn btn-primary" >Load More</button>
+<ol>
+    <li *ngFor="let benh of (dsBenh | async)">
+        {{benh.Name}}
+    </li>
+</ol>
